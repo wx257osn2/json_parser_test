@@ -2,10 +2,10 @@
 
 元ネタ : http://mattn.kaoriya.net/software/lang/c/20130215160508.htm
 
-なんとなく、「qiってどうなんだろう」と気になったので
+なんとなく、「Boost.Qiってどうなんだろう」と気になったので
 ・rapidjson(http://code.google.com/p/rapidjson/)
 ・picojson(https://github.com/kazuho/picojson)
-・闇の魔法陣(https://github.com/kikairoya/black_circle/) のqiによるjsonパーサ
+・闇の魔法陣(https://github.com/kikairoya/black_circle/) のQiによるjsonパーサ
 ・闇の魔法陣のパーサのデータ部分をBoost.VariantからBoost.Anyに書き換えた奴
   に、元ネタ同様「mattnさんのブログのJSONフィード」を投げてタイトルを列挙、
   速度を比較してみることにしました。
@@ -28,9 +28,9 @@ picojson score: 6051
 qi_any score: 29783
 circle score: 29921
 
-なんか、qiの実装が極端に遅い。
-「qiは速い」と聞いてたのに、他の2つと比べて桁が1つ違う。
-これはいったい何が原因なんでしょう？それとも、そもそもqiは遅い？
+なんか、Qiの実装が極端に遅い。
+「Qiは速い」と聞いてたのに、他の2つと比べて桁が1つ違う。
+これはいったい何が原因なんでしょう？それとも、そもそもQiは遅い？
 
 
 追記 : 結論としては「闇の魔法陣の実装が(少なくとも今回のデータに対しては)優れていない」
