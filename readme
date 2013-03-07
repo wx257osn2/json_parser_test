@@ -2,7 +2,7 @@
 
 元ネタ : http://mattn.kaoriya.net/software/lang/c/20130215160508.htm
 
-なんとなく、「Boost.Qiってどうなんだろう」と気になったので
+なんとなく、「Boost.Spirit.Qiってどうなんだろう」と気になったので
 ・rapidjson(http://code.google.com/p/rapidjson/)
 ・picojson(https://github.com/kazuho/picojson)
 ・闇の魔法陣(https://github.com/kikairoya/black_circle/) のQiによるjsonパーサ
